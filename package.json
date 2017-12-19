@@ -1,13 +1,16 @@
 {
-  "name": "crispy-succotash",
+  "name": "@skidder/crispy-succotash",
   "description": "Tool for finding and collecting nodejs headers for offline use",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "cli.js",
   "repository": "git@github.com:KevinDyer/crispy-succotash.git",
   "author": "Kevin Dyer <kevin.m.dyer@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^1.7.3"
+    "commander": "^2.12.2",
+    "node-fetch": "^1.7.3",
+    "semver": "^5.4.1"
   },
   "devDependencies": {
     "eslint": "^4.13.1",

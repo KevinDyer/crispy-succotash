@@ -1,3 +1,12 @@
 {
-    "extends": "google"
+    "extends": "google",
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "require-jsdoc": "off",
+        "indent": ["error", 2],
+        "max-len": ["warn", 120]
+    }
 }
